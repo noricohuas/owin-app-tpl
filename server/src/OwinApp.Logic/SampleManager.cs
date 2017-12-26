@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using AutoMapper.QueryableExtensions;
 using Beginor.AppFx.Core;
-using Beginor.OwinApp.Data;
+using Beginor.OwinApp.Data.Repository;
 using Beginor.OwinApp.Model;
 
 namespace Beginor.OwinApp.Logic {

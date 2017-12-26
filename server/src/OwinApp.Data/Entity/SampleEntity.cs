@@ -2,7 +2,7 @@
 using Beginor.AppFx.Core;
 using NHibernate.AspNet.Identity;
 
-namespace Beginor.OwinApp.Data {
+namespace Beginor.OwinApp.Data.Entity {
 
     public class SampleEntity : Int32IdNameEntity {
 

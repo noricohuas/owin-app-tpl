@@ -3,8 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns="urn:nhibernate-mapping-2.2"
-    namespace="Beginor.OwinApp.Data"
-    assembly="Beginor.OwinApp.Data"
+    namespace="Beginor.OwinApp.Data.Entity"
+    assembly="Beginor.OwinApp.Data.Entity"
     >
 
     <typedef name="json" class="Beginor.NHibernate.NpgSql.JsonType, Beginor.NHibernate.NpgSql" />

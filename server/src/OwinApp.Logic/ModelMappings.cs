@@ -3,7 +3,7 @@ using AutoMapper;
 using Castle.Core;
 using NHibernate.AspNet.Identity;
 using Beginor.OwinApp.Model;
-using Beginor.OwinApp.Data;
+using Beginor.OwinApp.Data.Entity;
 
 namespace Beginor.OwinApp.Logic {
 

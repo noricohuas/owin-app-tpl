@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 using Beginor.AppFx.Core;
-using Beginor.OwinApp.Data;
+using Beginor.OwinApp.Data.Repository;
 using System.Threading.Tasks;
 using System;
 
