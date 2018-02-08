@@ -1,18 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>net461</TargetFramework>
     <AssemblyName>Beginor.OwinApp.Model</AssemblyName>
     <RootNamespace>Beginor.OwinApp.Model</RootNamespace>
+    <TargetFramework>net461</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="Beginor.AppFx.Core" version="1.2.0" />
+    <PackageReference Include="Beginor.AppFx.Core" Version="1.2.0" />
   </ItemGroup>
-
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
   </ItemGroup>
-
 </Project>

@@ -1,41 +1,38 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net461</TargetFramework>
     <AssemblyName>Beginor.OwinApp.Api</AssemblyName>
     <RootNamespace>Beginor.OwinApp.Api</RootNamespace>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="Beginor.AppFx.Core" version="1.2.0" />
-    <PackageReference Include="Beginor.Owin.Logging" version="0.1.4" />
-    <PackageReference Include="Beginor.Owin.Security.Aes" version="0.2.2" />
-    <PackageReference Include="Beginor.Owin.StaticFile" version="0.3.1" />
-    <PackageReference Include="Beginor.Owin.WebApi.Windsor" version="0.2.3" />
-    <PackageReference Include="Beginor.Owin.Windsor" version="0.2.4" />
-    <PackageReference Include="Castle.Core" version="4.2.1" />
-    <PackageReference Include="Castle.Core-log4net" version="4.2.1" />
-    <PackageReference Include="Castle.LoggingFacility" version="4.1.0" />
-    <PackageReference Include="Castle.Windsor" version="4.1.0" />
-    <PackageReference Include="log4net" version="2.0.8" />
-    <PackageReference Include="Microsoft.AspNet.Cors" version="5.2.3" />
-    <PackageReference Include="Microsoft.AspNet.Identity.Core" version="2.2.1" />
-    <PackageReference Include="Microsoft.AspNet.Identity.Owin" version="2.2.1" />
-    <PackageReference Include="Microsoft.AspNet.WebApi.Client" version="5.2.3" />
-    <PackageReference Include="Microsoft.AspNet.WebApi.Core" version="5.2.3" />
-    <PackageReference Include="Microsoft.AspNet.WebApi.Cors" version="5.2.3" />
-    <PackageReference Include="Microsoft.AspNet.WebApi.Owin" version="5.2.3" />
-    <PackageReference Include="Microsoft.Owin" version="3.1.0" />
-    <PackageReference Include="Microsoft.Owin.Security" version="3.1.0" />
-    <PackageReference Include="Microsoft.Owin.Security.Cookies" version="3.1.0" />
-    <PackageReference Include="Microsoft.Owin.Security.OAuth" version="3.1.0" />
-    <PackageReference Include="Newtonsoft.Json" version="10.0.3" />
-    <PackageReference Include="Npgsql" version="3.2.5" />
-    <PackageReference Include="Owin" version="1.0" />
-    <PackageReference Include="Swashbuckle.Core" version="5.6.0" />
-    <PackageReference Include="System.Threading.Tasks.Extensions" version="4.4.0" />
+    <PackageReference Include="Beginor.AppFx.Core" Version="1.2.0" />
+    <PackageReference Include="Beginor.Owin.Logging" Version="0.1.4" />
+    <PackageReference Include="Beginor.Owin.Security.Aes" Version="0.2.2" />
+    <PackageReference Include="Beginor.Owin.StaticFile" Version="0.3.1" />
+    <PackageReference Include="Beginor.Owin.WebApi.Windsor" Version="0.2.3" />
+    <PackageReference Include="Beginor.Owin.Windsor" Version="0.2.4" />
+    <PackageReference Include="Castle.Core" Version="4.2.1" />
+    <PackageReference Include="Castle.Core-log4net" Version="4.2.1" />
+    <PackageReference Include="Castle.LoggingFacility" Version="4.1.0" />
+    <PackageReference Include="Castle.Windsor" Version="4.1.0" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Microsoft.AspNet.Cors" Version="5.2.3" />
+    <PackageReference Include="Microsoft.AspNet.Identity.Core" Version="2.2.1" />
+    <PackageReference Include="Microsoft.AspNet.Identity.Owin" Version="2.2.1" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.3" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.3" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Cors" Version="5.2.3" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Owin" Version="5.2.3" />
+    <PackageReference Include="Microsoft.Owin" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Owin.Security" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Owin.Security.Cookies" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Owin.Security.OAuth" Version="3.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="Npgsql" Version="3.2.5" />
+    <PackageReference Include="Owin" Version="1.0" />
+    <PackageReference Include="Swashbuckle.Core" Version="5.6.0" />
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.4.0" />
   </ItemGroup>
-
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,11 +40,9 @@
     <Reference Include="System.Runtime.Remoting" />
     <Reference Include="System.Web" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\OwinApp.Logic\OwinApp.Logic.csproj" />
     <ProjectReference Include="..\OwinApp.Model\OwinApp.Model.csproj" />
     <ProjectReference Include="..\OwinApp.Security\OwinApp.Security.csproj" />
   </ItemGroup>
-
 </Project>
